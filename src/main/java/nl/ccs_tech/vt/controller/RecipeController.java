@@ -4,10 +4,12 @@ package nl.ccs_tech.vt.controller;
 import lombok.RequiredArgsConstructor;
 import nl.ccs_tech.vt.dto.RecipeDTO;
 import nl.ccs_tech.vt.service.RecipeService;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
-import java.util.Map;
 
 @RestController
 @RequestMapping("/recipe")
