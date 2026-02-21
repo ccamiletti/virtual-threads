@@ -2,16 +2,12 @@ package nl.ccs_tech.vt.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import nl.ccs_tech.vt.config.VirtualThreadConfig;
 import nl.ccs_tech.vt.dto.RecipeDTO;
 import nl.ccs_tech.vt.entity.RecipeEntity;
 import nl.ccs_tech.vt.repository.RecipeRepository;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import java.util.concurrent.Executor;
 
 @Service
