@@ -23,7 +23,7 @@ public class RecipeController {
         return recipeService.getRecipes(userId);
     }
 
-    @GetMapping("/virtualThreads")
+    @GetMapping("/all")
     public void getAllByUserIdVirtualThreads() {
         recipeService.getRecipesVirtualThreads(1L);
     }
